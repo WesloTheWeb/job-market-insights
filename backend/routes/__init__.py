@@ -10,7 +10,7 @@ def create_app():
     # Add a simple test route directly
     @app.route('/')
     def home():
-        return "Flask is working!"
+        return "Flask is working! Sent from server"
     
     @app.route('/api/test')
     def test():
