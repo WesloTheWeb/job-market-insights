@@ -13,6 +13,14 @@ body {
   font-weight: 400;
 }
 
+a {
+
+  &:visited {
+    text-decoration: none;
+  }
+
+}
+
 :root {
   --primary-color: #646cff;
   --background-color: #242424;
